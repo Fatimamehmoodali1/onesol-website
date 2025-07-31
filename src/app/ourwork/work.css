@@ -242,6 +242,37 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .projects-header {
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .projects-title {
+    font-size: 28px;
+  }
+  .projects-description {
+    font-size: 14px;
+  }
+  .projects-arrows {
+    position: relative;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-cards {
+    gap: 30px;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
+
 /* our work */
 
 .our-work-section {
