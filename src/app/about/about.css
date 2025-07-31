@@ -638,7 +638,7 @@ body {
   .team-header {
     flex-direction: column;
     gap: 20px;
-    align-items: flex-start;
+    align-items: center;
   }
   .team-heading {
     font-size: 26px;
