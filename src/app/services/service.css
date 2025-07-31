@@ -676,6 +676,19 @@ body {
 }
 
 /* Brand Logos */
+.brands-section {
+  background-color: white;
+  padding: 80px 20px 0;
+  text-align: center;
+} 
+
+.brands-heading {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 40px;
+  font-weight: 600;
+} 
+
 .brands-bar {
   background: #000;
   padding: 36px 0;
@@ -746,24 +759,6 @@ body {
     height: auto;
     object-fit: cover;
   }
-
-  /* .orange-lines {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 4px;
-    margin-top: 10px;
-    justify-content: center;
-  }
-
-  .orange-lines span {
-    width: 18px;
-    height: 3px;
-    background-color: #ff6a13;
-    border-radius: 2px;
-  } */
 
   .brand-strip {
     margin-top: 40px;
