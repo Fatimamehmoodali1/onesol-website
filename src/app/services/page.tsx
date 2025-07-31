@@ -51,7 +51,7 @@ export default function Services () {
           viewport={{ once: true }}
         >
           <h1 className="hero-title">Projects</h1>
-          <p className="hero-breadcrumb">Home / Projects</p>
+          <p className="hero-breadcrumb">Home / Services</p>
         </motion.div>
       </section>
 
