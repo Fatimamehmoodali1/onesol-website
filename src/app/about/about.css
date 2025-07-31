@@ -534,6 +534,36 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .projects-header {
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .projects-title {
+    font-size: 28px;
+  }
+  .projects-description {
+    font-size: 14px;
+  }
+  .projects-arrows {
+    position: relative;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-cards {
+    gap: 30px;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
 
 
 /* next section */
@@ -603,6 +633,37 @@ body {
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
 }
+
+@media screen and (max-width: 1024px) {
+  .team-header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .team-heading {
+    font-size: 26px;
+  }
+  .all-members-btn {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team-cards {
+    gap: 30px;
+  }
+
+  .team-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .team-overlay {
+    font-size: 16px;
+  }
+}
+
 
 
 /* next */
