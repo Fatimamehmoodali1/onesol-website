@@ -72,7 +72,7 @@
   .logo {
     top: 0;
     left: 30px;
-    width: 120px;
+    width: 100px;
   }
 
   .navbar-rounded {
@@ -95,7 +95,7 @@
     top: auto;
     left: 16px;
     transform: none;
-    width: 120px;
+    width: 80px;
   }
 
   .navbar-rounded {
