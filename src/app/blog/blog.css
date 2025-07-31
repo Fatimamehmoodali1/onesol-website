@@ -245,7 +245,41 @@ body {
   right: -0px;
   top: -145px;
   z-index:0;
+}
 
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .left-cir,
+  .right-cir {
+    width: 180px;
+    top: -80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-heading {
+    font-size: 1.8rem;
+  }
+
+  .left-cir,
+  .right-cir {
+    width: 150px;
+    top: -60px;
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-heading {
+    font-size: 1.5rem;
+  }
+
+  .left-cir,
+  .right-cir {
+    width: 100px;
+    top: -40px;
+    opacity: 0.3;
+  }
 }
 /* next */
 .services-grid {
