@@ -17,7 +17,7 @@ const Hero = () => {
     <section className="hero" data-aos="fade-down">
       {/* Decorative left triangle & circle */}
       <div className="hero-left-shapes">
-        <Image src="/images/Polygon-4.png" alt="Small Triangle" width={20} height={20} className="left-triangle" />
+        <Image src="/images/polygon-4.png" alt="Small Triangle" width={20} height={20} className="left-triangle" />
         <Image src="/images/Ellipse-9.png" alt="Small Circle" width={12} height={12} className="left-circle" />
       </div>
 
@@ -59,7 +59,7 @@ const Hero = () => {
       {/* Bottom right shapes */}
       <div className="hero-bottom-right-shapes">
         <Image src="/images/Ellipse-4.png" alt="Bottom Circle" width={30} height={30} className="bottom-circle" />
-        <Image src="/images/rectangle-48.png" alt="Bottom Rectangle" width={60} height={20} className="bottom-rect" />
+        <Image src="/images/rectangle-48.png" alt="Bottom rectangle" width={60} height={20} className="bottom-rect" />
       </div>
     </section>
   );
