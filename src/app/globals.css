@@ -10,6 +10,13 @@
   /* overflow-x: hidden; */
   box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* ===== Body Styling ===== */
 body {
   font-family: 'karla', sans-serif;
