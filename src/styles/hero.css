@@ -69,7 +69,7 @@
 }
 
  /* Shapes  */
-/*.hero-left-shapes .left-triangle {
+.hero-left-shapes .left-triangle {
   position: absolute;
   top: 29%;
   left: 8px;
@@ -86,8 +86,8 @@
 }
 
 .hero-shapes .triangle1 {
-  position: absolute; */
-/*   top: 40%;
+  position: absolute; 
+  top: 40%;
   left: 35%;
   transform: translate(-50%, -50%);
   width: 300px;
@@ -105,8 +105,8 @@
 .hero-shapes .round-right {
   position: absolute;
   top: 320px;
-  right: -0px; */
-/*   width: 300px;
+  right: -0px; 
+  width: 300px;
   z-index: 0;
 }
 
@@ -114,8 +114,8 @@
   position: absolute;
   top: 54%;
   left: -0%;
-  width: 200px; */
-/*   z-index: 1;
+  width: 200px; 
+  z-index: 1;
 }
 
 .hero-shapes .curve-bottom {
@@ -127,7 +127,7 @@
   z-index: 1;
 }
 
- /* Bottom Right  
+/*   Bottom Right   */
 .hero-bottom-right-shapes .bottom-circle {
   position: absolute;
   top: 73%;
@@ -137,17 +137,17 @@
   z-index: 5;
 }
 
-.hero-bottom-right-shapes .bottom-rect { */
-/*   position: absolute;
+.hero-bottom-right-shapes .bottom-rect { 
+  position: absolute;
   bottom: 5%;
   top: 80%;
   right: 5%;
   width: 200px;
   z-index: 5;
 }
- */
+ 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-shapes .round-right,
   .hero-shapes .round-left,
   .hero-left-shapes .left-triangle,
@@ -160,7 +160,7 @@
     left: auto;
     right: auto;
   }
-}
+} */
 
 /* Social Icons  */
 .hero-icons {
@@ -201,9 +201,9 @@
   .hero {
     flex-direction: column;
     align-items: center;
-    padding: 60px 20px 60px;
+    padding: 80px 20px;
     height: auto;
-    min-height: 100vh;
+    min-height: 100%;
     overflow: hidden;
     justify-content: center;
   }
