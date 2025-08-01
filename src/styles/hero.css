@@ -249,7 +249,7 @@
     position: fixed;
     top: 30%;
     bottom: 20px; 
-    right: 0%;
+    right: 10px;
     flex-direction: column;
     gap: 18px;
     z-index: 5;
