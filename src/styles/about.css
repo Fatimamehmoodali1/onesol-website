@@ -106,7 +106,7 @@
 
 @media (max-width: 480px) {
   .about-us {
-    padding: 150px 16px;
+    padding: 180px 16px;
     max-width: 300px;
   }
 
@@ -126,14 +126,15 @@
 
   .about-circle.left {
     left: -60px;
-    top: 10%;
+    top: 9%;
   }
 
   .about-circle.right {
     right: -60px;
-    bottom: 10%;
+    bottom: 12%;
   }
 }
+
 
 
 
