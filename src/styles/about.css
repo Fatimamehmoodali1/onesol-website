@@ -64,11 +64,11 @@
   }
 
   .about-us .content h2 {
-    font-size: 34px;
+    font-size: 25px;
   }
 
   .about-us .content p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .about-circle {
@@ -91,11 +91,11 @@
   }
 
   .about-us .content h2 {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .about-us .content p {
-    font-size: 12px;
+    font-size: 10px;
     max-width: 400px;
   }
 
@@ -133,5 +133,6 @@
     bottom: 10%;
   }
 }
+
 
 
