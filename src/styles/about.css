@@ -60,7 +60,7 @@
 /* ---------- Responsive ---------- */
 @media (max-width: 1024px) {
   .about-us {
-    padding: 100px 40px;
+    padding: 140px 40px;
   }
 
   .about-us .content h2 {
@@ -133,3 +133,4 @@
     bottom: 10%;
   }
 }
+
