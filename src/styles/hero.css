@@ -356,7 +356,7 @@
   }
 
   .hero-icons {
-    right: 15%;
+    right: 10%;
     bottom: 60px;
   }
 
@@ -365,8 +365,11 @@
     width: 120px;
   }
 
-  .hero-shapes .round-left,
-  .hero-shapes .round-right {
+   .hero-shapes .round-right{
+     width: 100px;
+   }
+
+  .hero-shapes .round-left {
     width: 80px;
   }
 
@@ -459,6 +462,7 @@
 
 
  
+
 
 
 
