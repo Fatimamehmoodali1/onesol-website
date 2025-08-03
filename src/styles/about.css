@@ -86,7 +86,7 @@
 
 @media (max-width: 768px) {
   .about-us {
-    padding: 140px 26px;
+    padding: 160px 26px;
     background-position: center top;
   }
 
@@ -133,4 +133,5 @@
     bottom: 10%;
   }
 }
+
 
