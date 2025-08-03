@@ -107,6 +107,7 @@
 @media (max-width: 480px) {
   .about-us {
     padding: 150px 16px;
+    max-width: 300px;
   }
 
   .about-us .content h2 {
@@ -133,6 +134,7 @@
     bottom: 10%;
   }
 }
+
 
 
 
