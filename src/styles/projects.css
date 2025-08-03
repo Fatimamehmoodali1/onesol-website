@@ -227,13 +227,13 @@
 @media (max-width: 768px) {
   .project-section{
     text-align: center;
+    margin-left:30px;
   }
   .project-section .sub-heading{
     /* padding: 50px 20px; */
     font-size: 20px;
     align-items: center;
     text-align: center;
-    
   }
 
   .project-section .main-heading {
@@ -264,6 +264,7 @@
     width: 70px;
   }
 }
+
 
 
 
