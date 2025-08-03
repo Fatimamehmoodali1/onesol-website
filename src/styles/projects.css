@@ -231,7 +231,7 @@
   }
   .project-section .sub-heading{
     /* padding: 50px 20px; */
-    font-size: 20px;
+    font-size: 15px;
     align-items: center;
     text-align: center;
     margin-left:20px;
@@ -245,7 +245,7 @@
   }
 
   .project-section .description {
-    font-size: 16px;
+    font-size: 18px;
     max-width: 500px;
     margin-left: 50px;
     margin-top: 20px;
@@ -266,6 +266,7 @@
     width: 70px;
   }
 }
+
 
 
 
