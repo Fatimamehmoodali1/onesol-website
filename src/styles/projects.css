@@ -227,12 +227,12 @@
 @media (max-width: 768px) {
   .project-section .sub-heading{
     /* padding: 50px 20px; */
-    font-size: 24px;
+    font-size: 20px;
     
   }
 
   .project-section .main-heading {
-    font-size: 22px;
+    font-size: 26px;
     margin-bottom: 10px;
   }
 
@@ -258,4 +258,5 @@
     width: 70px;
   }
 }
+
 
