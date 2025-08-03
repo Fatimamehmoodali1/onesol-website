@@ -533,7 +533,8 @@ body {
 
 @media (max-width: 480px) {
   .about-us {
-    padding: 50px 16px;
+    padding: 180px 16px;
+/*     max-width: 300px; */
   }
 
   .about-us .content h2 {
@@ -551,13 +552,13 @@ body {
   }
 
   .about-circle.left {
-    left: -60px;
-    top: 10%;
+    left: -70px;
+    top: 20%;
   }
 
   .about-circle.right {
-    right: -60px;
-    bottom: 10%;
+    right: -70px;
+    bottom: 20%;
   }
 }
 
@@ -1462,3 +1463,4 @@ body {
     font-size: 60px;
   }
 }
+
