@@ -237,7 +237,7 @@
 
   .curve-text {
     font-size: 18px;
-    top: 75%;
+    top: 77%;
     left: 40%;
     transform: translateX(-50%);
     text-align: center;
@@ -249,7 +249,7 @@
     position: fixed;
     top: 30%;
     bottom: 20px; 
-    right: -10%;
+    right: -20px;
     flex-direction: column;
     gap: 18px;
     z-index: 5;
@@ -459,6 +459,7 @@
 
 
  
+
 
 
 
