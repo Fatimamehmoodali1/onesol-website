@@ -125,15 +125,16 @@
   }
 
   .about-circle.left {
-    left: -60px;
-    top: 10%;
+    left: -70px;
+    top: 20%;
   }
 
   .about-circle.right {
-    right: -60px;
-    bottom: 10%;
+    right: -70px;
+    bottom: 20%;
   }
 }
+
 
 
 
