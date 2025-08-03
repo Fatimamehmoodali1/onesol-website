@@ -225,6 +225,9 @@
 }
 
 @media (max-width: 768px) {
+  .project-section{
+    text-align: center;
+  }
   .project-section .sub-heading{
     /* padding: 50px 20px; */
     font-size: 20px;
@@ -258,5 +261,6 @@
     width: 70px;
   }
 }
+
 
 
