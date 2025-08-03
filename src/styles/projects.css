@@ -231,12 +231,15 @@
   .project-section .sub-heading{
     /* padding: 50px 20px; */
     font-size: 20px;
+    align-items: center;
+    text-align: center;
     
   }
 
   .project-section .main-heading {
     font-size: 26px;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .project-section .description {
@@ -261,6 +264,7 @@
     width: 70px;
   }
 }
+
 
 
 
