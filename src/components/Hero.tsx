@@ -22,6 +22,7 @@ const Hero = () => {
       </div>
 
       {/* Main text content */}
+      <div className="hero-bg-image"></div>
       <div className="hero-left">
         <h1>
           ELEVATING <br />
@@ -50,17 +51,20 @@ const Hero = () => {
 
       {/* Social Icons */}
       <div className="hero-icons">
-        <a href="#"><Image src="/images/facebook.png" alt="Facebook" width={24} height={24} /></a>
-        <a href="#"><Image src="/images/instagram.png" alt="Instagram" width={24} height={24} /></a>
-        <a href="#"><Image src="/images/linkedin.png" alt="LinkedIn" width={24} height={24} /></a>
-        <a href="#"><Image src="/images/twitter.png" alt="X" width={24} height={24} /></a>
-      </div>
+       <a href="#"><Image src="/images/instagram.png" alt="Instagram" width={24} height={2} /></a>
+       <a href="#"><Image src="/images/facebook.png" alt="Facebook" width={24} height={24} /></a>
+       <a href="#"><Image src="/images/linkedin.png" alt="LinkedIn" width={24} height={24} /></a>
+       <a href="#"><Image src="/images/twitter.png" alt="Twitter" width={24} height={24} /></a>
+       {/* <a href="#"><Image src="/images/x.png" alt="X" width={24} height={24} /></a> */}
+     </div>
+
 
       {/* Bottom right shapes */}
       <div className="hero-bottom-right-shapes">
         <Image src="/images/Ellipse-4.png" alt="Bottom Circle" width={30} height={30} className="bottom-circle" />
         <Image src="/images/rectangle-48.png" alt="Bottom rectangle" width={60} height={20} className="bottom-rect" />
       </div>
+
     </section>
   );
 };
