@@ -9,6 +9,9 @@ import Testimonial from '../components/Testimonial';
 import Blog from '../components/Blog';
 import Experience from '../components/Experience';
 import CallToAction from '../components/CallToAction';
+import MarqueCards from '../components/MarqueCards';
+import WhatWeCraft from '../components/WhatWeCraft';
+import TechExpert from '../components/TechExpert';
 import Footer from '../components/Footer';
 
 
@@ -26,6 +29,9 @@ export default function HomePage() {
       <Blog />
       <Experience />
       <CallToAction />
+      <MarqueCards />
+      <WhatWeCraft />
+      <TechExpert />
       <Footer /> 
     </div>
   );
