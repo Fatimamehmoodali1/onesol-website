@@ -16,11 +16,25 @@
   z-index: 1;
 }
 
+.hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/bgg1.png'); /* use your image path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1; /* make it visible over background but not too harsh */
+  z-index: 0;
+}
+
 /* Main Content  */
 .hero-left {
-  margin-top: 5%;
+  margin-top: -1%;
   margin-left: 7%;
-  max-width: 520px;
+  max-width: 560px;
   z-index: 2;
 }
 
@@ -125,7 +139,7 @@
   width: 100%;
   height: 550px;
   z-index: 1;
-}
+} 
 
 /*   Bottom Right   */
 .hero-bottom-right-shapes .bottom-circle {
@@ -163,8 +177,8 @@
 } */
 
 /* Social Icons  */
-.hero-icons {
-  position: fixed;
+/* .hero-icons {
+  position: absolute;
   top: 125px;
   right: 20px;
   display: flex;
@@ -182,9 +196,56 @@
 
 .hero-icons a img:hover {
   transform: scale(1.2);
-}
+} */
 
 /* Animation  */
+/* @keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+} */
+
+.hero-icons {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.hero-icons a {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.1) ;
+  /* background-image: url('/images/bgg1.png') transparent; */
+  backdrop-filter: blur(5px);
+}
+
+.hero-icons a:hover {
+  transform: scale(1.2);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1); /* force white icon look */
+}
+
+/* Entry Animation */
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -276,6 +337,8 @@
     height: 580px;
     left: 0;
     z-index: 1;
+
+    
   }
 
   .hero-bottom-right-shapes .bottom-circle {
@@ -437,6 +500,7 @@
   animation-delay: 2.6s;
 }
 
+
 /* Keyframes */
 @keyframes fadeSlideUp {
   0% {
@@ -460,14 +524,33 @@
   }
 }
 
+/* 🌀 Animated Curve Bottom */
+@keyframes waveSlide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
- 
+/* .curve-bottom {
+  animation: waveSlide 10s linear infinite;
+  /* Existing styles 
+  position: absolute;
+  bottom: -250px;
+  left: 0;
+  width: 200%;
+  height: 550px;
+  z-index: 1;
+} */
 
-
-
-
-
-
-
-
+/* @keyframes floatWave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+} */
 
